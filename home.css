@@ -1,0 +1,512 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*welcome*/
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+.icon{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    border: 2px solid orangered;
+    border-radius: 50px;
+    text-align: center;
+}
+.cta:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+#welcome{
+    min-height: 140vh;
+}
+ #welcome .welcome-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+     padding-top: 80px;
+ }
+ #welcome .welcome-info{
+    padding-right: 30px;
+ }
+ #welcome .welcome-info h2{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-left: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+ }
+ #welcome .welcome-info h1{
+    font-size: 4rem;
+    padding-left: 15px;
+ }
+ #welcome .welcome-info p{
+     font-size: 1.3rem;
+     padding: 15px;
+     padding-bottom: 30px;
+ }
+ #welcome .welcome-img{
+    padding-left: 90px;
+ }
+ .welcome-img img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+ }
+ #welcome .all-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1200px;
+     margin: 0 auto; 
+      padding-left: 200px; 
+     padding-bottom: 100px;
+     padding-top: 50px;
+ }
+ #welcome .all-img .pic-item img{
+    width: 80px;
+    height: 80px;
+ }
+ #welcome .all-img .pic-item h1{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+ }
+
+/* End welcome*/
+#menu{
+    min-height: 200vh;
+    background: url(/exp/pictures/img17.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-color: black;
+}
+#menu .menu-header h1{
+   font-size: 5rem;
+   text-align: center;
+   padding-top: 150px;
+   color: white;
+}
+.menu-item img{
+    width: 340px;
+    height: 250px;
+    align-items: center;
+    margin: 30px;
+    padding-left: 3px;
+}
+#menu .all-menu{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+        padding-top:150px ;
+    }
+#menu .all-menu .menu-item .menu-img{
+    background-color: white;
+}
+
+#menu .menu-img h1{
+    padding-left: 35px;
+    max-width: 300px;
+}
+#menu .menu-img h3{
+    padding-left: 35px;
+    padding-bottom: 100px;
+    max-width: 350px;
+    padding-top: 10px;
+}
+
+#menu .downcase{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 1.3rem;                    
+}                    
+#hero{
+    background-color: #1a1a1a;
+    color: white;
+}
+#hero .all-hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+#hero .all-hero .hero-item .hero-header h1{
+    color: orangered;
+    font-size: 4rem;
+}
+#hero .all-hero .hero-item .hero-info h2{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#hero .all-hero .hero-item .hero-info h3{
+    color: gray;
+     max-width: 300px; 
+    font-size: 1.3rem;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+#hero .all-hero .hero-item .hero-info p{
+    color: gray;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+#belief{
+    min-height: 190vh;
+    background-image: url(/exp/pictures/img24.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-color: orangered;
+    padding-top: 200px;
+}
+#belief .belief-info{
+    background-color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+     padding: 50px; 
+}
+
+#belief .belief-info h2{
+    font-size: 1.5rem;
+    padding: 30px;
+    font-weight: 500;
+}
+#belief .belief-info h3{
+    padding: 20px;
+}
+#belief .all-sauce{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+    color: white;
+}
+#belief .all-sauce .sauce-item .sauce-header h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+#belief .all-sauce .sauce-item .sauce-info{
+    padding-top: 30px;
+    max-width: 400px;
+}
+#belief .all-sauce .sauce-item .sauce-info h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+#belief .all-sauce .sauce-item .sauce-info h3{
+    padding: 1px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#story{
+    min-height: 90vh;
+}
+#story .story-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#story .story-item .story-img{
+    padding-left: 30px;
+}
+ 
+#story .story-item .story-img img{
+    width:550px ;
+    height:550px ;
+    border-radius: 50px;
+}
+#story .story-item .story-info{
+    text-align: center;
+    padding-left: 10px;
+    align-items: center;
+    margin: auto auto;
+    max-width: 500px;
+}
+#story .story-item .story-info .story-header h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+#story .story-item .story-info h2{
+    padding: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+#story .story-item .story-info p{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+#story .story-item .story-info  nav ul {
+display: inline-block;
+font-size: 1.3rem;
+padding: 20px;
+}
+#story .story-item .story-info  nav ul li{
+    padding: 2px;
+}
+#contact{
+    min-height: 80vh;
+    background-image: url(/exp/pictures/img26.jpg);
+    background-size: cover;
+}
+#contact .contact-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 700px;
+     grid-gap: 20px; 
+    margin: 0 auto;
+    padding-top: 170px;
+}
+
+#contact .contact-items .contact-item .contact-info{
+    background-color:white;
+    text-align: center;
+    max-width: 30vh;
+    padding: 20px;
+    height: 30vh;
+}
+#contact .contact-items .contact-item .contact-info h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+}
+#contact .contact-items .contact-item .contact-info h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1px;
+}
+#contact .contact-items .contact-item .contact-info h3{
+    padding: 2px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#contact .contact-items .contact-item .contact-info h4{
+    line-height: 50px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: orangered;
+    text-decoration: underline;
+    
+}
+
+#contact p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+}
+#footer{
+    min-height: 30vh;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #333333;
+    color: white;
+}
+#footer h2{
+    padding-bottom: 50px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#footer h4{
+    padding-top: 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px){
+    #welcome{
+        min-height: 240vh;
+    }
+    #welcome .welcome-item{
+        flex-direction: column;
+    }
+    .welcome-img img{
+        width: 300px;
+        height: 300px;
+
+    }
+    #welcome .welcome-info{
+        padding-left: 30px;
+     }
+     #welcome .welcome-img{
+        padding-right: 90px;
+        padding-top: 20px;
+     }
+     .icon{
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    #welcome .welcome-info h1{
+        font-size: 3.7rem;
+        padding-left: 15px;
+     }
+     #welcome .all-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+     }
+     #welcome .all-img .pic-item{
+        padding-bottom: 100px;
+
+     }
+     #welcome .all-img .pic-item img{
+        width: 80px;
+        height: 80px;
+     }
+     
+}
+
+
+
+@media screen and (min-width:728px){
+    #welcome .welcome-item{
+       flex-direction: column;
+    }
+    .welcome-img img{
+        width: 400px;
+        height: 400px;
+    }
+    #welcome .welcome-info{
+        padding-left: 30px;
+     }
+    #welcome .welcome-img{
+        padding-right: 90px;
+     }
+     .icon{
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    #welcome .welcome-info h1{
+        font-size: 3.8rem;
+        padding-left: 15px;
+     }
+     #welcome .all-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 600px;
+        margin: 0 auto;
+     }
+     #welcome .all-img .pic-item img{
+        width: 65px;
+        height: 65px;
+        padding-top: 25px;
+     }
+}
+
+
+@media screen and (min-width:1024px){
+    #welcome .welcome-item{
+      flex-direction: column;
+    }
+    .welcome-img img{
+        width: 500px;
+        height: 500px;
+    }
+    #welcome .welcome-info{
+        padding-left: 30px;
+     }
+     #welcome .welcome-info{
+        padding-left: 30px;
+     }
+     #welcome .welcome-img{
+        padding-right: 90px;
+     }
+     .icon{
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+    #welcome .welcome-info h1{
+        font-size: 3.9rem;
+        padding-left: 15px;
+     }
+     #welcome .all-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 800px;
+     }
+     #welcome .all-img .pic-item img{
+        width: 65px;
+        height: 65px;
+        padding-top: 25px;
+     }
+}
+
+ 
+@media screen and (min-width:1440px) {
+    #welcome{
+        min-height: 120vh;
+    }
+    #welcome .welcome-item{
+        flex-direction: row;
+    }
+    .welcome-img img{
+        width: 600px;
+        height: 600px;
+    }
+    #welcome .welcome-info{
+        padding-right: 30px;
+     }
+     #welcome .welcome-img{
+        padding-right: 90px
+     }
+     .icon{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    #welcome .welcome-info h1{
+        font-size: 4rem;
+        padding-left: 15px;
+     }
+     #welcome .all-img{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: 0 auto;
+        max-width: 1200px;
+     }
+     #welcome .all-img .pic-item img{
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+     }
+    
+}
